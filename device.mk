@@ -513,10 +513,6 @@ PRODUCT_PACKAGES += \
     XiaomiAddon \
     XiaomiParts
 
-#Prebuilts
-PRODUCT_PACKAGES += \
-    RemovePackages
-
 # Reduce system image size by limiting java debug info.
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 
